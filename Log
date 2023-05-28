@@ -1,0 +1,114 @@
+System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.Planet.Site.get_MainSitePartDef () [0x00006] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.QuestGen.QuestNode_Root_WorkSite.AppearanceFrequency (Verse.Map map) [0x000aa] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.QuestGen.QuestNode_Root_WorkSite.BestAppearanceFrequency () [0x00023] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.StorytellerComp_WorkSite+<MakeIntervalIncidents>d__2.MoveNext () [0x00034] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller+<MakeIncidentsForInterval>d__23.MoveNext () [0x00171] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller+<MakeIncidentsForInterval>d__22.MoveNext () [0x000a1] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller.StorytellerTick () [0x00042] in <95de19971c5d40878d8742747904cdcd>:0 
+  at (wrapper dynamic-method) Verse.TickManager.Verse.TickManager.DoSingleTick_Patch4(Verse.TickManager)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch4 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+(wrapper dynamic-method) Verse.Game:Verse.Game.UpdatePlay_Patch2 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Graphic_Scatter cannot draw realtime.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+Verse.Log:ErrorOnce (string,int)
+Verse.Graphic_Cluster:DrawWorker (UnityEngine.Vector3,Verse.Rot4,Verse.ThingDef,Verse.Thing,single)
+Verse.Graphic:DrawFromDef (UnityEngine.Vector3,Verse.Rot4,Verse.ThingDef,single)
+Verse.GhostDrawer:DrawGhostThing (Verse.IntVec3,Verse.Rot4,Verse.ThingDef,Verse.Graphic,UnityEngine.Color,Verse.AltitudeLayer,Verse.Thing,bool,Verse.ThingDef)
+RimWorld.Designator_Place:DrawGhost (UnityEngine.Color)
+RimWorld.Designator_Place:SelectedUpdate ()
+(wrapper dynamic-method) RimWorld.Designator_Build:RimWorld.Designator_Build.SelectedUpdate_Patch1 (RimWorld.Designator_Build)
+Verse.DesignatorManager:DesignatorManagerUpdate ()
+RimWorld.MapInterface:MapInterfaceUpdate ()
+RimWorld.UIRoot_Play:UIRootUpdate ()
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+CloneColored not implemented on this subclass of Graphic: Verse.Graphic_Cluster
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+Verse.Log:ErrorOnce (string,int)
+Verse.Graphic:GetColoredVersion (UnityEngine.Shader,UnityEngine.Color,UnityEngine.Color)
+RimWorld.Blueprint_Build:get_Graphic ()
+Verse.Thing:Print (Verse.SectionLayer)
+Verse.ThingWithComps:Print (Verse.SectionLayer)
+Verse.SectionLayer_ThingsGeneral:TakePrintFrom (Verse.Thing)
+Verse.SectionLayer_Things:Regenerate ()
+Verse.Section:RegenerateLayers (Verse.MapMeshFlag)
+Verse.MapDrawer:TryUpdateSection (Verse.Section)
+Verse.MapDrawer:MapMeshDrawerUpdate_First ()
+(wrapper dynamic-method) Verse.Map:Verse.Map.MapUpdate_Patch1 (Verse.Map)
+(wrapper dynamic-method) Verse.Game:Verse.Game.UpdatePlay_Patch2 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Object with load ID Hireable_pirates is referenced (xml node name: li) but is not deep-saved. This will cause errors during loading.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Warning_Patch0 (string)
+Verse.DebugLoadIDsSavingErrorsChecker:CheckForErrorsAndClear ()
+Verse.ScribeSaver:FinalizeSaving ()
+Verse.SafeSaver:DoSave (string,string,System.Action)
+Verse.SafeSaver:Save (string,string,System.Action,bool)
+Verse.GameDataSaveLoader:SaveGame (string)
+RimWorld.Autosaver:DoAutosave ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.Planet.Site.get_MainSitePartDef () [0x00006] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.QuestGen.QuestNode_Root_WorkSite.AppearanceFrequency (Verse.Map map) [0x000aa] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.QuestGen.QuestNode_Root_WorkSite.BestAppearanceFrequency () [0x00023] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.StorytellerComp_WorkSite+<MakeIntervalIncidents>d__2.MoveNext () [0x00034] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller+<MakeIncidentsForInterval>d__23.MoveNext () [0x00171] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller+<MakeIncidentsForInterval>d__22.MoveNext () [0x000a1] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller.StorytellerTick () [0x00042] in <95de19971c5d40878d8742747904cdcd>:0 
+  at (wrapper dynamic-method) Verse.TickManager.Verse.TickManager.DoSingleTick_Patch4(Verse.TickManager)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch4 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+(wrapper dynamic-method) Verse.Game:Verse.Game.UpdatePlay_Patch2 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Object with load ID Hireable_pirates is referenced (xml node name: li) but is not deep-saved. This will cause errors during loading.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Warning_Patch0 (string)
+Verse.DebugLoadIDsSavingErrorsChecker:CheckForErrorsAndClear ()
+Verse.ScribeSaver:FinalizeSaving ()
+Verse.SafeSaver:DoSave (string,string,System.Action)
+Verse.SafeSaver:Save (string,string,System.Action,bool)
+Verse.GameDataSaveLoader:SaveGame (string)
+RimWorld.Dialog_SaveFileList_Save/<>c__DisplayClass3_0:<DoFileInteraction>b__0 ()
+Verse.LongEventHandler:UpdateCurrentSynchronousEvent (bool&)
+Verse.LongEventHandler:LongEventsUpdate (bool&)
+Verse.Root:Update ()
+Verse.Root_Play:Update ()
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at RimWorld.Planet.Site.get_MainSitePartDef () [0x00006] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.QuestGen.QuestNode_Root_WorkSite.AppearanceFrequency (Verse.Map map) [0x000aa] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.QuestGen.QuestNode_Root_WorkSite.BestAppearanceFrequency () [0x00023] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.StorytellerComp_WorkSite+<MakeIntervalIncidents>d__2.MoveNext () [0x00034] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller+<MakeIncidentsForInterval>d__23.MoveNext () [0x00171] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller+<MakeIncidentsForInterval>d__22.MoveNext () [0x000a1] in <95de19971c5d40878d8742747904cdcd>:0 
+  at RimWorld.Storyteller.StorytellerTick () [0x00042] in <95de19971c5d40878d8742747904cdcd>:0 
+  at (wrapper dynamic-method) Verse.TickManager.Verse.TickManager.DoSingleTick_Patch4(Verse.TickManager)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Error_Patch2 (string)
+(wrapper dynamic-method) Verse.TickManager:Verse.TickManager.DoSingleTick_Patch4 (Verse.TickManager)
+Verse.TickManager:TickManagerUpdate ()
+(wrapper dynamic-method) Verse.Game:Verse.Game.UpdatePlay_Patch2 (Verse.Game)
+Verse.Root_Play:Update ()
+
+Reached max messages limit. Stopping logging to avoid spam.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+(wrapper dynamic-method) Verse.Log:Verse.Log.Warning_Patch0 (string)
+Verse.Log:Notify_MessageReceivedThreadedInternal (string,string,UnityEngine.LogType)
+UnityEngine.Application:CallLogCallback (string,string,UnityEngine.LogType,bool)
